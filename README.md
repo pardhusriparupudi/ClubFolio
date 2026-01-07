@@ -1,73 +1,116 @@
-# Welcome to your Lovable project
+# 📘 Clubfolio
 
-## Project info
+Clubfolio is a student-centric web platform designed to simplify college club management by connecting students, coordinators, and events in one place.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 🚀 About the Project
 
-There are several ways of editing your application.
+Managing college clubs and events often involves scattered information and manual coordination. Clubfolio solves this by providing a centralized system where:
 
-**Use Lovable**
+- Students can explore clubs and apply for events
+- Coordinators can manage clubs, create events, and recruit members
+- Colleges get better visibility into student activities
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## ✨ Features
 
-**Use your preferred IDE**
+### 👩‍🎓 Student
+- Sign in using Google authentication
+- Browse and search for clubs
+- Apply to join clubs
+- View and register for events
+- Track applied clubs and events
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🧑‍💼 Club Coordinator
+- Secure coordinator login
+- Create, update, and delete events
+- Recruit and manage club members
+- View student applications
+- Manage club details
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🔐 Authentication & Security
+- Google OAuth authentication
+- Role-based access (Student / Coordinator)
+- Protected routes and dashboards
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🧠 Tech Stack
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- **Frontend:** React, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **Database:** Firebase Firestore
+- **Authentication:** Firebase Google OAuth
+- **Hosting:** Firebase / Vercel
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## 📁 Project Structure
+
+```
+clubfolio/
+├── frontend/
+│   ├── components/
+│   ├── pages/
+│   └── styles/
+├── backend/
+│   ├── routes/
+│   ├── controllers/
+│   └── server.js
+├── firebase/
+│   └── config.js
+├── README.md
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## ⚙️ Installation & Setup
 
-**Use GitHub Codespaces**
+1. Clone the repository
+```bash
+git clone https://github.com/your-username/clubfolio.git
+cd clubfolio
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+2. Install dependencies
+```bash
+npm install
+```
 
-## What technologies are used for this project?
+3. Run the application
+```bash
+npm start
+```
 
-This project is built with:
+4. Open in browser
+```
+http://localhost:3000
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🧪 Future Enhancements
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+- Admin dashboard for college authorities
+- Email and notification alerts
+- Attendance tracking for events
+- Analytics dashboard for club performance
+- Mobile app version
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 🤝 Contribution
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Push to your branch
+5. Open a pull request
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
